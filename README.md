@@ -2,6 +2,10 @@
 
 A powerful Model Context Protocol (MCP) server that enables Claude Code instances to delegate tasks to local Ollama models. This creates a secure, private AI collaboration environment with comprehensive codebase analysis capabilities.
 
+**Inspired by**: [Ollama's Secure Minions pattern](https://ollama.com/blog/secureminions)
+
+**Performance Note**: Currently experiencing poor performance on M4 MacBook Pro with 24GB RAM. Performance optimization is a priority for future development.
+
 ## Key Features
 
 ### **Task Delegation**
