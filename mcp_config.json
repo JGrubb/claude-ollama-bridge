@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "claude-ollama": {
-      "command": "python",
-      "args": ["/Users/johngrubb/play/Ollama-stuff/claude_ollama_mcp.py"],
+      "command": "./venv/bin/python",
+      "args": ["./claude_ollama_mcp.py"],
       "env": {}
     }
   }
