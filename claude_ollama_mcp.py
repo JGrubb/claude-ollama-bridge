@@ -7,7 +7,14 @@ Allows Claude instances to delegate tasks to local Ollama models
 import asyncio
 import json
 import logging
-from typing import Any, Sequence
+from typing import Any, Sequence, Dict, List, Optional
+import os
+import subprocess
+import glob
+import re
+from pathlib import Path
+from datetime import datetime
+from logging.handlers import RotatingFileHandler
 
 import requests
 from mcp.server import Server, NotificationOptions
