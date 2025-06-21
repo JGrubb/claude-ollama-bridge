@@ -21,7 +21,7 @@ This MCP server allows Claude instances to delegate coding tasks to your local O
      "mcpServers": {
        "claude-ollama": {
          "command": "python",
-         "args": ["/Users/johngrubb/play/Ollama-stuff/claude_ollama_mcp.py"],
+         "args": ["/path/to/claude_ollama_mcp.py"],
          "env": {}
        }
      }
